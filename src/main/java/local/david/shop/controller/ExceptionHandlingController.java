@@ -1,20 +1,19 @@
 package local.david.shop.controller;
 
-import org.springframework.web.bind.annotation.ExceptionHandler;
-import org.springframework.web.servlet.ModelAndView;
-
-import javax.servlet.http.HttpServletRequest;
+import org.springframework.stereotype.Controller;
 
 /**
  * Created by [david] on 12.03.17.
  */
+//@Controller
 public class ExceptionHandlingController {
-    @ExceptionHandler(Exception.class)
+
+/*    @ExceptionHandler(Exception.class)
     public ModelAndView handleError(HttpServletRequest req, Exception ex) {
         ModelAndView mav = new ModelAndView();
-        mav.addObject("exception", ex);
+        mav.addObject("exception", ex.getMessage());
         mav.addObject("url", req.getRequestURL());
         mav.setViewName("error");
         return mav;
-    }
+    }*/
 }
