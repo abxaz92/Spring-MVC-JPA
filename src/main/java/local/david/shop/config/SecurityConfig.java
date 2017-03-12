@@ -1,4 +1,4 @@
-package local.david;
+package local.david.shop.config;
 
 
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;

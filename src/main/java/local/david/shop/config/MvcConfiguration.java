@@ -1,4 +1,4 @@
-package local.david;
+package local.david.shop.config;
 
 import org.springframework.boot.autoconfigure.mustache.web.MustacheViewResolver;
 import org.springframework.context.annotation.Bean;

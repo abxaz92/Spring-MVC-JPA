@@ -1,4 +1,4 @@
-package local.david;
+package local.david.shop.controller;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
