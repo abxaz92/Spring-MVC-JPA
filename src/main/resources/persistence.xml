@@ -6,7 +6,7 @@
     <persistence-unit name="developer.remarks.persistence.unit">
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
         <properties>
-            <property name="hibernate.hbm2ddl.auto"/>
+            <!--<property name="hibernate.hbm2ddl.auto"/>-->
             <!--<property name="hibernate.hbm2ddl.auto" value="create-"/>-->
             <property name="hibernate.show_sql" value="true"/>
             <property name="hibernate.temp.use_jdbc_metadata_defaults" value="false"/>
